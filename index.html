@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Weather Checker app</h1>
+    </div>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="city-input" placeholder="Enter city name" />
+       <br><br> <button id="submit-btn">Get Weather</button>
+        
+        <div id="weather-info" class="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <img id="weather-icon" src="" alt="Weather Icon" />
+            <p id="error-message" class="error"></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Weather App. All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
